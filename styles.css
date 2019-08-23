@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.jumbotron {
+    margin: 20px;
+    background-image: url(https://unsplash.com/photos/Oze6U2m1oYU);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.form-control {
+    display: inline-block;
+    width: 145px;
+}
+
+table {
+    table-layout: fixed;
+    background-color: black;
+    color: white;
+}
