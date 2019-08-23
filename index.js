@@ -11,7 +11,7 @@ let $searchButton = document.querySelector("#search");
 $searchButton.addEventListener("click", handleSearchClick);
 
 // Set ufoData to data
-let ufoData = dataSet;
+let ufoData = data;
 
 // renderTable renders the ufoData to the tbody
 function renderTable() {
@@ -40,7 +40,7 @@ function handleSearchClick() {
     let filterCountry = $countryInput.value.trim().toLowerCase();
     let filterShape = $shapeInput.value.trim().toLowerCase();
     // Set ufoData to array of ufo sightings to match the filter
-    ufoData = dataSet.filter(function(ufoSighting) {
+    ufoData = data.filter(function(ufoSighting) {
         let searchDate = ufoSighting.datetime;
         let searchCity = ufoSighting.city.toLowerCase();
         let searchState = ufoSighting.state.toLowerCase();
